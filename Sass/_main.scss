@@ -1,0 +1,171 @@
+h1 {
+    text-align: center;
+}
+
+main {
+    margin: 0 5em 0 15em;
+}
+
+.country {
+    width: 150px;
+    height: 35px;
+    border: 1px solid rgba(19, 18, 18, 0.8);
+    border-radius: 0.4em;
+    margin: 15px 0;
+    // background-color: green;
+}
+
+#country {
+    width: 110px;
+    border: none;
+    margin-top: 7px;
+    font-weight: 900;
+}
+
+#country:focus {
+    outline: none;
+}
+
+.country:focus-within {
+    border: 2px solid rgb(12, 12, 167);
+}
+
+.checkbox {
+    display: flex;
+    align-items: center;
+    &>p {
+        padding-left: 1em;
+    }
+}
+
+.fa,
+.fab,
+.fad,
+.fal,
+.far,
+.fas {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+    margin: 0 10px;
+    opacity: 0.5;
+}
+
+.fa-envelope:before {
+    content: "\f0e0";
+}
+
+.first-item {
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 2rem;
+}
+
+.second-item {
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 5rem;
+}
+
+img {
+    width: 125px;
+    height: 140px;
+    border-radius: 7%;
+}
+
+.first-item {
+    width: 120px;
+    min-height: 120px;
+    max-height: auto;
+    // float: left;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.second-item {
+    width: 120px;
+    min-height: 120px;
+    max-height: auto;
+    // float: left;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+h4 {
+    width: 22em;
+    margin-bottom: 10px;
+}
+
+.aside {
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    height: 500px;
+    background-color: rgb(232, 229, 229);
+    border-radius: 0.7rem;
+}
+
+.total {
+    margin: -25px 40px 0 30px;
+    width: 380px;
+}
+
+.shipping-price {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid rgba($color: #252424, $alpha: 0.5);
+}
+
+.total-price {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid rgba($color: #252424, $alpha: 0.5);
+}
+
+.counter {
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid black;
+    width: 7rem;
+    height: 2.5rem;
+    border-radius: 0.3rem;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.details {
+    margin-left: 1.5rem;
+}
+
+.sale-price {
+    color: rgb(230, 112, 69);
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.original-price {
+    color: black;
+    text-decoration: line-through;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+h5 {
+    font-size: 18px;
+    font-weight: 900;
+    margin-top: 0;
+}
+
+.count-button {
+    height: 1.5rem;
+    border: none;
+    background-color: rgb(206, 205, 205);
+    font-weight: 900;
+    font-size: 1.5rem;
+    font-weight: 900;
+    padding-bottom: 28px;
+}

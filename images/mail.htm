@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<!-- saved from url=(0039)https://aaron-clarusway.github.io/form/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./mail_files/index.css">
+    <link rel="stylesheet" href="./mail_files/universal.css">
+    <script src="./mail_files/5c7edfd842.js" crossorigin="anonymous"></script><link href="./mail_files/free-v4-shims.min.css" media="all" rel="stylesheet"><link href="./mail_files/free-v4-font-face.min.css" media="all" rel="stylesheet"><link href="./mail_files/free.min.css" media="all" rel="stylesheet">
+    <title>Checkout</title>
+</head>
+
+<body style=""><div style="display: none;"></div>
+    <h1 id="checkout-title">Checkout</h1>
+    <main>
+        <form action="https://aaron-clarusway.github.io/form/">
+            <div id="contact-information" class="data-form">
+                <h1>Contact information</h1>
+                <div class="campo">
+                    <label for="email">Email</label>
+                    <div class="input-field">
+                        <input type="email" name="email" id="user-email" placeholder="Enter your email..." required="">
+                        <i class="fas fa-envelope" aria-hidden="true"></i>
+                    </div>
+                </div>
+                <div class="campo">
+                    <label for="phone">Phone</label>
+                    <div class="input-field">
+                        <input type="tel" name="phone" id="user-phone-number" placeholder="Enter your phone..." required="">
+                        <i class="fas fa-phone-alt" aria-hidden="true"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div id="shipping-address" class="data-form">
+                <h1>Shipping address</h1>
+                <div class="campo">
+                    <label for="full-name">Full name</label>
+                    <div class="input-field">
+                        <input type="text" name="full-name" id="user-full-name" placeholder="Enter your Full name..." required="">
+                        <i class="fas fa-user" aria-hidden="true"></i>
+                    </div>
+                    <div class="campo">
+                        <label for="address">Address</label>
+                        <div class="input-field">
+                            <input type="text" name="address" id="user-address" placeholder="Enter your address..." required="">
+                            <i class="fas fa-home" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                    <div class="campo">
+                        <label for="city">City</label>
+                        <div class="input-field">
+                            <input type="text" name="city" id="user-city" placeholder="Enter your city..." required="">
+                            <i class="fas fa-city" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                    <div class="campo" id="country-field">
+                        <label for="your-country">Country</label>
+                        <div class="input-field">
+                            <select name="your-country" id="user-country" required="">
+                                <option value="Turkey">Turkey</option>
+                                <option value="Turkey">Germany</option>
+                                <option value="Turkey">USA</option>
+                                <option value="Turkey">Canada</option>
+                                <option value="Turkey">UK</option>
+                            </select>
+                            <i class="fas fa-globe-europe" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                    <div class="campo" id="postal-code-field">
+                        <label for="postal-code">Post Code</label>
+                        <div class="input-field">
+                            <input type="text" name="postal-code" id="user-postal-code" placeholder="Enter your postal code..." required="">
+                            <i class="fas fa-mail-bulk" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                    <div class="campo">
+                        <input type="checkbox" name="reminder" id="user-reminder">
+                        <label for="reminder">See this information next time</label>
+                    </div>
+                </div>
+            </div>
+            <button id="btn-submit" type="submit">
+                Continue
+            </button>
+        </form>
+
+        <div id="products-preview">
+            <div id="product-painel">
+                <div class="product">
+                    <img src="./mail_files/photo1.png" alt="">
+                    <div class="product-info">
+                        <h2>Vintage Backbag</h2>
+                        <p><strong>$54.99</strong> <span class="line-through">$94.99</span></p>
+
+                        <div class="quantity-controller">
+                            <button>
+                                <i class="fas fa-minus" aria-hidden="true"></i>
+                            </button>
+                            <p>1</p>
+                            <button>
+                                <i class="fas fa-plus" aria-hidden="true"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product">
+                    <img src="./mail_files/photo2.png" alt="">
+                    <div class="product-info">
+                        <h2>Levi Shoes</h2>
+                        <p><strong>$74.99</strong> <span class="line-through">$124.99</span></p>
+
+                        <div class="quantity-controller">
+                            <button>
+                                <i class="fas fa-minus" aria-hidden="true"></i>
+                            </button>
+                            <p>1</p>
+                            <button>
+                                <i class="fas fa-plus" aria-hidden="true"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="buy-detail" id="shipping">
+                    <p>Shipping</p>
+                    <p>$19</p>
+                </div>
+                <div class="buy-detail" id="total">
+                    <p>Total</p>
+                    <p>$148.98</p>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+
+
+<style id="chrome-extension-css-grid-overlay-style-0">
+    #chrome-extension-css-grid-overlay-0 {
+      display: none;
+    }
+
+    @media (min-width: 0px) and (max-width: 599px) {
+      #chrome-extension-css-grid-overlay-container {
+        background-color: rgba(0, 191, 165, .3);
+        top: 0px;
+        right: 0px;
+        bottom: 0px;
+        left: 0px;
+        padding-left: 16px;
+        padding-right: 16px;
+        pointer-events: none;
+        position: fixed;
+        z-index: 13371337;
+      }
+
+      #chrome-extension-css-grid-overlay-0 {
+        background-color: rgba(0, 231, 255, .3);
+        display: flex;
+        height: 100%;
+        margin: 0 auto;
+        max-width: none;
+      }
+
+      .chrome-extension-css-grid-overlay__column {
+        background-color: rgba(234, 23, 140, .3);
+        border-left: 1px solid #EA178C;
+        border-right: 1px solid #EA178C;
+        box-sizing: border-box;
+        height: 100%;
+        margin: 0 16px;
+        width: calc(100% / 4);
+      }
+
+      .chrome-extension-css-grid-overlay__column:first-child {
+        margin-left: 0;
+      }
+
+      .chrome-extension-css-grid-overlay__column:last-child {
+        margin-right: 0;
+      }
+    }
+  </style><style id="chrome-extension-css-grid-overlay-style-1">
+    #chrome-extension-css-grid-overlay-1 {
+      display: none;
+    }
+
+    @media (min-width: 600px) and (max-width: 719px) {
+      #chrome-extension-css-grid-overlay-container {
+        background-color: rgba(0, 191, 165, .3);
+        top: 0px;
+        right: 0px;
+        bottom: 0px;
+        left: 0px;
+        padding-left: 16px;
+        padding-right: 16px;
+        pointer-events: none;
+        position: fixed;
+        z-index: 13371337;
+      }
+
+      #chrome-extension-css-grid-overlay-1 {
+        background-color: rgba(0, 231, 255, .3);
+        display: flex;
+        height: 100%;
+        margin: 0 auto;
+        max-width: none;
+      }
+
+      .chrome-extension-css-grid-overlay__column {
+        background-color: rgba(234, 23, 140, .3);
+        border-left: 1px solid #EA178C;
+        border-right: 1px solid #EA178C;
+        box-sizing: border-box;
+        height: 100%;
+        margin: 0 16px;
+        width: calc(100% / 8);
+      }
+
+      .chrome-extension-css-grid-overlay__column:first-child {
+        margin-left: 0;
+      }
+
+      .chrome-extension-css-grid-overlay__column:last-child {
+        margin-right: 0;
+      }
+    }
+  </style><style id="chrome-extension-css-grid-overlay-style-2">
+    #chrome-extension-css-grid-overlay-2 {
+      display: none;
+    }
+
+    @media (min-width: 720px) and (max-width: 839px) {
+      #chrome-extension-css-grid-overlay-container {
+        background-color: rgba(0, 191, 165, .3);
+        top: 0px;
+        right: 0px;
+        bottom: 0px;
+        left: 0px;
+        padding-left: 24px;
+        padding-right: 24px;
+        pointer-events: none;
+        position: fixed;
+        z-index: 13371337;
+      }
+
+      #chrome-extension-css-grid-overlay-2 {
+        background-color: rgba(0, 231, 255, .3);
+        display: flex;
+        height: 100%;
+        margin: 0 auto;
+        max-width: none;
+      }
+
+      .chrome-extension-css-grid-overlay__column {
+        background-color: rgba(234, 23, 140, .3);
+        border-left: 1px solid #EA178C;
+        border-right: 1px solid #EA178C;
+        box-sizing: border-box;
+        height: 100%;
+        margin: 0 24px;
+        width: calc(100% / 8);
+      }
+
+      .chrome-extension-css-grid-overlay__column:first-child {
+        margin-left: 0;
+      }
+
+      .chrome-extension-css-grid-overlay__column:last-child {
+        margin-right: 0;
+      }
+    }
+  </style><style id="chrome-extension-css-grid-overlay-style-3">
+    #chrome-extension-css-grid-overlay-3 {
+      display: none;
+    }
+
+    @media (min-width: 840px) and (max-width: 7680px) {
+      #chrome-extension-css-grid-overlay-container {
+        background-color: rgba(0, 191, 165, .3);
+        top: 0px;
+        right: 0px;
+        bottom: 0px;
+        left: 0px;
+        padding-left: 24px;
+        padding-right: 24px;
+        pointer-events: none;
+        position: fixed;
+        z-index: 13371337;
+      }
+
+      #chrome-extension-css-grid-overlay-3 {
+        background-color: rgba(0, 231, 255, .3);
+        display: flex;
+        height: 100%;
+        margin: 0 auto;
+        max-width: 1440px;
+      }
+
+      .chrome-extension-css-grid-overlay__column {
+        background-color: rgba(234, 23, 140, .3);
+        border-left: 1px solid #EA178C;
+        border-right: 1px solid #EA178C;
+        box-sizing: border-box;
+        height: 100%;
+        margin: 0 24px;
+        width: calc(100% / 12);
+      }
+
+      .chrome-extension-css-grid-overlay__column:first-child {
+        margin-left: 0;
+      }
+
+      .chrome-extension-css-grid-overlay__column:last-child {
+        margin-right: 0;
+      }
+    }
+  </style></body></html>
